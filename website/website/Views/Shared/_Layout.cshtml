@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title | Effortless Online Solutions</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/style.min.css">
+    <meta name="description" content="Effortless Online Solutions - We focus on the tech stuff. So you don't have to." />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="@Url.Action("Index", "Home")">Home</a>
+                <a href="@Url.Action("Index", "About")">About</a>
+                <a href="@Url.Action("Index", "Work")">Work</a>
+                <a href="@Url.Action("Index", "Solutions")">Solutions</a>
+                <a href="@Url.Action("Index", "Blog")">Blog</a>
+                <a href="@Url.Action("Index", "Careers")">Careers</a>
+                <a href="@Url.Action("Index", "Contact")">Contact</a>
+            </li>
+        </ul>
+    </nav>
+        @RenderBody()
+</body>
+</html>

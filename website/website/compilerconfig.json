@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Content/base.css",
+    "inputFile": "Content/base.scss"
+  },
+  {
+    "outputFile": "Content/style.css",
+    "inputFile": "Content/style.scss"
+  },
+  {
+    "outputFile": "Content/home.css",
+    "inputFile": "Content/home.scss"
+  }
+]
