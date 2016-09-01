@@ -267,6 +267,7 @@
     </None>
     <Content Include="Content\style.scss" />
     <Content Include="Content\home.scss" />
+    <Content Include="Content\navbar.scss" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
