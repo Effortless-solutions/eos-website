@@ -28,12 +28,12 @@ nav {
       transition: all .2s ease-in-out;
       padding-left: 16px;
       padding-right: 16px; }
-      nav .nav-right .nav-item:hover {
-        transform: scale(1.05) translateY(-4px); }
       nav .nav-right .nav-item a {
         height: 100%;
         text-transform: uppercase;
         font-weight: bold; }
+        nav .nav-right .nav-item a:hover {
+          transform: scale(1.05) translateY(-4px); }
 
 /* Underline From Left */
 .hvr-underline-from-left, nav .nav-left a, nav .nav-right .nav-item a {

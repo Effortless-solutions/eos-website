@@ -17,8 +17,10 @@ nav {
     position: absolute;
     top: 0;
     width: 100%;
+
     .nav-left {
         padding-left: 10%;
+
         a {
             @extend .nav-item-link;
             font-size: 24px;
@@ -36,12 +38,14 @@ nav {
             transition: all .2s ease-in-out;
             padding-left: 16px;
             padding-right: 16px;
-            &:hover {
-                transform: scale(1.05) translateY(-4px);
-            }
 
             a {
                 height: 100%;
+
+                &:hover {
+                    transform: scale(1.05) translateY(-4px);
+                }
+
                 @extend .nav-item-link;
                 text-transform: uppercase;
                 font-weight: bold;

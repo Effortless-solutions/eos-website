@@ -1,2 +1,95 @@
-﻿body {
+﻿section#solutions {
+    min-height: 300px;
+    width: 100%;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+    background: #00BCD4;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        margin: 0;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        color: white;
+        @extend .roboto !optional;
+        font-size: 48px;
+    }
+
+    .card-wrapper {
+        width: 100%;
+        height: auto;
+        display: flex;
+
+        .card {
+            margin-left: 12px;
+            margin-right: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 25%;
+            background: #FAFAFA;
+            padding-bottom: 12px;
+            @extend .card-shadow-2 !optional;
+            transition: all .2s ease-in-out;
+            &:hover {
+                transform: translateY(-20px);
+                .card-img-bg {
+                    transform: scale(1.1);
+                }
+            }
+            &:nth-child(2) {
+                margin-right: 0;
+                margin-left: 0;
+            }
+
+            &:nth-child(4) {
+                margin-left: 0;
+            }
+
+            .card-img-bg {
+                width: 176px;
+                height: 176px;
+                border-radius: 10em;
+                background: #F0F0F0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 12px;
+                transition: all .2s ease-in-out;
+                img {
+                    padding-top: 8px;
+                    height: 120px;
+                }
+
+                &:nth-child(2) {
+                    img {
+                        height: 106px;
+                    }
+                }
+            }
+
+            h4 {
+                @extend .roboto !optional;
+                font-size: 22px;
+                color: #333;
+                margin: 12px;
+            }
+            p {
+                @extend .roboto !optional;
+                margin: 0;
+                padding-left: 8px;
+                padding-right: 8px;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 28px;
+                margin-top: 4px;
+                margin-bottom: 4px;
+            }
+        }
+    }
 }

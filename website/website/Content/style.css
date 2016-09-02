@@ -16,13 +16,13 @@ body, html {
   margin-right: auto;
   margin-left: auto; }
 
-.roboto, section#home .jumbotron-img .jumbotron .title-text h2, section#home .jumbotron-img .jumbotron .title-text h4 {
+.roboto, section#home .jumbotron-img .jumbotron .title-text h2, section#home .jumbotron-img .jumbotron .title-text h4, section#solutions h2, section#solutions .card-wrapper .card h4, section#solutions .card-wrapper .card p {
   font-family: 'Roboto', sans-serif; }
 
 .card-shadow-1, section#home .jumbotron-img .jumbotron .button-wrapper a:hover, section#home .home-content {
   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px; }
 
-.card-shadow-2 {
+.card-shadow-2, section#solutions .card-wrapper .card {
   box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px; }
 
 .card-shadow-3 {
@@ -96,7 +96,7 @@ section#home {
           background: #F44336;
           border-color: #F44336; }
   section#home .home-content {
-    width: 900px;
+    width: 1000px;
     height: 1200px;
     background: white;
     transform: translateY(-60px); }
@@ -130,12 +130,12 @@ nav {
       transition: all .2s ease-in-out;
       padding-left: 16px;
       padding-right: 16px; }
-      nav .nav-right .nav-item:hover {
-        transform: scale(1.05) translateY(-4px); }
       nav .nav-right .nav-item a {
         height: 100%;
         text-transform: uppercase;
         font-weight: bold; }
+        nav .nav-right .nav-item a:hover {
+          transform: scale(1.05) translateY(-4px); }
 
 /* Underline From Left */
 .hvr-underline-from-left, nav .nav-left a, nav .nav-right .nav-item a {
@@ -170,9 +170,76 @@ nav {
 .hvr-underline-from-left:hover:before, nav .nav-left a:hover:before, nav .nav-right .nav-item a:hover:before, .hvr-underline-from-left:focus:before, nav .nav-left a:focus:before, nav .nav-right .nav-item a:focus:before, .hvr-underline-from-left:active:before, nav .nav-left a:active:before, nav .nav-right .nav-item a:active:before {
   right: 0; }
 
-section#about .jumbotron-img {
-  height: 300px; }
-  section#about .jumbotron-img .jumbotron {
-    height: 300px;
-    background: rgba(0, 0, 0, 0.6); }
+section#about {
+  height: 600px; }
+
+section#solutions {
+  min-height: 300px;
+  width: 100%;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  background: #00BCD4;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  section#solutions h2 {
+    margin: 0;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    color: white;
+    font-size: 48px; }
+  section#solutions .card-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex; }
+    section#solutions .card-wrapper .card {
+      margin-left: 12px;
+      margin-right: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 25%;
+      background: #FAFAFA;
+      padding-bottom: 12px;
+      transition: all .2s ease-in-out; }
+      section#solutions .card-wrapper .card:hover {
+        transform: translateY(-20px); }
+        section#solutions .card-wrapper .card:hover .card-img-bg {
+          transform: scale(1.1); }
+      section#solutions .card-wrapper .card:nth-child(2) {
+        margin-right: 0;
+        margin-left: 0; }
+      section#solutions .card-wrapper .card:nth-child(4) {
+        margin-left: 0; }
+      section#solutions .card-wrapper .card .card-img-bg {
+        width: 176px;
+        height: 176px;
+        border-radius: 10em;
+        background: #F0F0F0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12px;
+        transition: all .2s ease-in-out; }
+        section#solutions .card-wrapper .card .card-img-bg img {
+          padding-top: 8px;
+          height: 120px; }
+        section#solutions .card-wrapper .card .card-img-bg:nth-child(2) img {
+          height: 106px; }
+      section#solutions .card-wrapper .card h4 {
+        font-size: 22px;
+        color: #333;
+        margin: 12px; }
+      section#solutions .card-wrapper .card p {
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 4px;
+        margin-bottom: 4px; }
 
