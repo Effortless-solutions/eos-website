@@ -1,4 +1,9 @@
-﻿.text-center {
+﻿@import 'https://fonts.googleapis.com/css?family=Oswald:300,400';
+body, html {
+    margin: 0;
+}
+
+.text-center {
     text-align: center;
 }
 
@@ -12,6 +17,10 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
 }
 
 .card-shadow-1 {
@@ -32,4 +41,22 @@
 
 .card-shadow-5 {
     box-shadow: rgba(0, 0, 0, 0.298039) 0px 19px 60px, rgba(0, 0, 0, 0.219608) 0px 15px 20px;
+}
+
+.jumbotron-img {
+    background: url(https://static.pexels.com/photos/164/man-person-apple-iphone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+.jumbotron {
+    background: linear-gradient(to right, rgba(229, 57, 53, .65), rgba(63, 81, 181, .65), rgba(0, 188, 212, .65));
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

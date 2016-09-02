@@ -1,1 +1,71 @@
-﻿
+﻿section#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+
+    .jumbotron-img {
+        .jumbotron {
+            /*background: rgba(0,0,0, .6);*/
+            .title-text {
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                h2 {
+                    color: white;
+                    @extend .roboto !optional;
+                    margin: 12px;
+                    font-size: 48px;
+                    font-weight: 500;
+                    span {
+                        color: #F44336;
+                    }
+                }
+
+                h4 {
+                    color: white;
+                    @extend .roboto !optional;
+                    margin: 12px;
+                    line-height: 24px;
+                    font-weight: 300;
+                }
+            }
+
+            .button-wrapper {
+                display: flex;
+
+                a {
+                    background: transparent;
+                    color: white;
+                    border: 2px solid white;
+                    text-decoration: none;
+                    font-weight: bold;
+                    padding: 12px 28px;
+                    margin: 12px;
+                    letter-spacing: 1.25px;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    font-family: 'Roboto', sans-serif;
+                    transition: all .2s ease-in-out;
+                    border-radius: 10em;
+                    &:hover {
+                        @extend .card-shadow-1 !optional;
+                        background: #F44336;
+                        border-color: #F44336;
+                    }
+                }
+            }
+        }
+    }
+
+    .home-content {
+        width: 900px;
+        height: 1200px;
+        background: white;
+        @extend .card-shadow-1 !optional;
+        transform: translateY(-60px);
+    }
+}

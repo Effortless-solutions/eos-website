@@ -189,6 +189,12 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\about.css">
+      <DependentUpon>about.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\about.min.css">
+      <DependentUpon>about.css</DependentUpon>
+    </Content>
     <Content Include="Content\base.css">
       <DependentUpon>base.scss</DependentUpon>
     </Content>
@@ -268,6 +274,7 @@
     <Content Include="Content\style.scss" />
     <Content Include="Content\home.scss" />
     <Content Include="Content\navbar.scss" />
+    <Content Include="Content\about.scss" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>

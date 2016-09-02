@@ -1,1 +1,50 @@
-﻿
+﻿section#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fafafa; }
+  section#home .jumbotron-img .jumbotron {
+    /*background: rgba(0,0,0, .6);*/ }
+    section#home .jumbotron-img .jumbotron .title-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      section#home .jumbotron-img .jumbotron .title-text h2 {
+        color: white;
+        margin: 12px;
+        font-size: 48px;
+        font-weight: 500; }
+        section#home .jumbotron-img .jumbotron .title-text h2 span {
+          color: #F44336; }
+      section#home .jumbotron-img .jumbotron .title-text h4 {
+        color: white;
+        margin: 12px;
+        line-height: 24px;
+        font-weight: 300; }
+    section#home .jumbotron-img .jumbotron .button-wrapper {
+      display: flex; }
+      section#home .jumbotron-img .jumbotron .button-wrapper a {
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 12px 28px;
+        margin: 12px;
+        letter-spacing: 1.25px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        transition: all .2s ease-in-out;
+        border-radius: 10em; }
+        section#home .jumbotron-img .jumbotron .button-wrapper a:hover {
+          background: #F44336;
+          border-color: #F44336; }
+  section#home .home-content {
+    width: 900px;
+    height: 1200px;
+    background: white;
+    transform: translateY(-60px); }
+
