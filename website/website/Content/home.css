@@ -14,9 +14,9 @@
       section#home .jumbotron-img .jumbotron .title-text h2 {
         color: white;
         margin: 12px;
-        font-size: 48px;
+        font-size: 60px;
         font-weight: 500; }
-        section#home .jumbotron-img .jumbotron .title-text h2 span {
+        section#home .jumbotron-img .jumbotron .title-text h2 .period {
           color: #F44336; }
       section#home .jumbotron-img .jumbotron .title-text h4 {
         color: white;

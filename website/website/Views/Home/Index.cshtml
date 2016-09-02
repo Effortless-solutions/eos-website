@@ -1,11 +1,31 @@
 ﻿@{
     ViewBag.Title = "Home";
 }
+<script type="text/javascript">
+    $(function () {
+        $(".element").typed({
+            strings: [
+                "web<span class='period'>.</span>",
+                "apps<span class='period'>.</span>",
+                "solutions<span class='period'>.</span>",
+                "design<span class='period'>.</span>"
+            ],
+            typeSpeed: 70,
+            backSpeed: 70,
+            startDelay: 500,
+            loop: true,
+            cursorChar: "|",
+            backDelay: 850,
+            contentType: "html"
+        });
+    });
+</script>
+
 <section id="home">
     <div class="jumbotron-img">
         <div class="jumbotron">
             <div class="title-text">
-                <h2>effortless<span>.</span> web<span>.</span> apps<span>.</span> solutions<span>.</span> design<span>.</span></h2>
+                <h2>effortless<span class='period'>.</span> <span class="element"></span></h2>
                 <h4>
                     We are a specialist brand strategy and design agency <br />
                     dedicated to making a real difference to our clients.
