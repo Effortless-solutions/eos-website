@@ -4,7 +4,7 @@
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
   background: #03A9F4;
-  padding-bottom: 48px;
+  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -16,7 +16,7 @@
     font-size: 60px;
     color: #333;
     font-weight: 500; }
-    section#solutions h2 span {
+    section#solutions h2 .period {
       color: #F44336; }
   section#solutions .card-wrapper {
     width: 100%;
