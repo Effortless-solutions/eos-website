@@ -1,1 +1,1 @@
-﻿section#about{height:600px;}
+﻿section#about{padding-bottom:60px;}section#about .about-font{font-family:'Roboto',sans-serif;font-size:60px;color:#03a9f4;display:flex;justify-content:center;align-items:center;letter-spacing:2px;margin:0;padding:60px;font-weight:500;}section#about .about-font span{color:#f44336;}section#about .about-content{font-family:'Roboto',sans-serif;display:flex;justify-content:center;align-items:center;font-weight:300;margin-top:-20px;text-align:center;line-height:36px;color:#666;font-size:18px;}

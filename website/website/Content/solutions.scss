@@ -3,7 +3,7 @@
     width: 100%;
     border-top: 2px solid #eeeeee;
     border-bottom: 2px solid #eeeeee;
-    background: #00BCD4;
+    background: #03A9F4;
     padding-bottom: 48px;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,12 @@
         padding-bottom: 36px;
         color: white;
         @extend .roboto !optional;
-        font-size: 48px;
+        font-size: 60px;
+        color: #333;
+        font-weight: 500;
+        span {
+            color: #F44336;
+        }
     }
 
     .card-wrapper {
@@ -61,6 +66,7 @@
                 align-items: center;
                 margin-top: 12px;
                 transition: all .2s ease-in-out;
+                border: 1px solid #E0E0E0;
                 img {
                     padding-top: 8px;
                     height: 120px;

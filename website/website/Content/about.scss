@@ -1,3 +1,32 @@
 ﻿section#about {
-    height: 600px;
+    padding-bottom: 60px;
+    .about-font {
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        color: #03A9F4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 2px;
+        margin: 0;
+        padding: 60px;
+        font-weight: 500;
+        span {
+            color: #F44336;
+        }
+    }
+
+    .about-content {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+        margin-top:-20px;
+        text-align: center;
+        line-height: 36px;
+        color: #666666;
+        font-size: 18px;
+
+    }
 }
