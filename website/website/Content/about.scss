@@ -1,10 +1,25 @@
 ﻿section#about {
-    .jumbotron-img {
-        height: 300px;
+    .about-font {
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        color: rgb(0, 188, 212);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 2px;
+    }
 
-        .jumbotron {
-            height: 300px;
-            background: rgba(0,0,0,.6);
-        }
+    .about-content {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+        margin-top:-20px;
+        text-align: center;
+        line-height: 36px;
+        color: #666666;
+        font-size: 18px;
+
     }
 }
