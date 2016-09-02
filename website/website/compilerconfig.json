@@ -10,5 +10,9 @@
   {
     "outputFile": "Content/home.css",
     "inputFile": "Content/home.scss"
+  },
+  {
+    "outputFile": "Content/j-navbar.css",
+    "inputFile": "Content/j-navbar.scss"
   }
 ]

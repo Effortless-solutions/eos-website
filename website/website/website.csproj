@@ -201,6 +201,12 @@
     <Content Include="Content\home.min.css">
       <DependentUpon>home.css</DependentUpon>
     </Content>
+    <Content Include="Content\j-navbar.css">
+      <DependentUpon>j-navbar.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\j-navbar.min.css">
+      <DependentUpon>j-navbar.css</DependentUpon>
+    </Content>
     <Content Include="Content\style.css">
       <DependentUpon>style.scss</DependentUpon>
     </Content>
@@ -268,6 +274,7 @@
     <Content Include="Content\style.scss" />
     <Content Include="Content\home.scss" />
     <Content Include="Content\navbar.scss" />
+    <Content Include="Content\j-navbar.scss" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
