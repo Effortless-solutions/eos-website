@@ -14,5 +14,21 @@
   {
     "outputFile": "Content/about.css",
     "inputFile": "Content/about.scss"
+  },
+  {
+    "outputFile": "Content/contact.css",
+    "inputFile": "Content/contact.scss"
+  },
+  {
+    "outputFile": "Content/navbar.css",
+    "inputFile": "Content/navbar.scss"
+  },
+  {
+    "outputFile": "Content/solutions.css",
+    "inputFile": "Content/solutions.scss"
+  },
+  {
+    "outputFile": "Content/work.css",
+    "inputFile": "Content/work.scss"
   }
 ]

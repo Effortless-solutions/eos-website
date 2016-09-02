@@ -201,17 +201,41 @@
     <Content Include="Content\base.min.css">
       <DependentUpon>base.css</DependentUpon>
     </Content>
+    <Content Include="Content\contact.css">
+      <DependentUpon>contact.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\contact.min.css">
+      <DependentUpon>contact.css</DependentUpon>
+    </Content>
     <Content Include="Content\home.css">
       <DependentUpon>home.scss</DependentUpon>
     </Content>
     <Content Include="Content\home.min.css">
       <DependentUpon>home.css</DependentUpon>
     </Content>
+    <Content Include="Content\navbar.css">
+      <DependentUpon>navbar.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\navbar.min.css">
+      <DependentUpon>navbar.css</DependentUpon>
+    </Content>
+    <Content Include="Content\solutions.css">
+      <DependentUpon>solutions.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\solutions.min.css">
+      <DependentUpon>solutions.css</DependentUpon>
+    </Content>
     <Content Include="Content\style.css">
       <DependentUpon>style.scss</DependentUpon>
     </Content>
     <Content Include="Content\style.min.css">
       <DependentUpon>style.css</DependentUpon>
+    </Content>
+    <Content Include="Content\work.css">
+      <DependentUpon>work.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\work.min.css">
+      <DependentUpon>work.css</DependentUpon>
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -275,6 +299,9 @@
     <Content Include="Content\home.scss" />
     <Content Include="Content\navbar.scss" />
     <Content Include="Content\about.scss" />
+    <Content Include="Content\work.scss" />
+    <Content Include="Content\solutions.scss" />
+    <Content Include="Content\contact.scss" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
