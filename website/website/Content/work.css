@@ -1,1 +1,389 @@
-﻿
+﻿section#work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 60px; }
+  section#work h2 {
+    margin: 0;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    color: #03a9f4;
+    font-size: 60px;
+    font-weight: 500; }
+    section#work h2 span {
+      color: #F44336; }
+  section#work .work-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%; }
+    section#work .work-item-wrapper .grid-1 {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      height: auto; }
+      section#work .work-item-wrapper .grid-1 .work-item {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%; }
+        section#work .work-item-wrapper .grid-1 .work-item:nth-child(1) .background {
+          margin-left: 24px;
+          margin-right: 12px;
+          width: 100%;
+          height: 336px;
+          background-image: url(http://i.imgur.com/j3JDv2X.gif);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-bottom: 24px;
+          transition: all .3s ease-in-out; }
+          section#work .work-item-wrapper .grid-1 .work-item:nth-child(1) .background:hover {
+            transform: scale(1.05); }
+            section#work .work-item-wrapper .grid-1 .work-item:nth-child(1) .background:hover .overlay {
+              background: rgba(51, 51, 51, 0.8); }
+              section#work .work-item-wrapper .grid-1 .work-item:nth-child(1) .background:hover .overlay .title {
+                opacity: 1; }
+              section#work .work-item-wrapper .grid-1 .work-item:nth-child(1) .background:hover .overlay .sub-title {
+                opacity: 1; }
+          section#work .work-item-wrapper .grid-1 .work-item:nth-child(1) .background .overlay {
+            width: 100%;
+            height: 100%;
+            transition: all .3s ease-in-out;
+            background: rgba(0, 0, 0, 0.18);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; }
+            section#work .work-item-wrapper .grid-1 .work-item:nth-child(1) .background .overlay .title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 24px; }
+            section#work .work-item-wrapper .grid-1 .work-item:nth-child(1) .background .overlay .sub-title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 18px;
+              font-weight: 300; }
+              section#work .work-item-wrapper .grid-1 .work-item:nth-child(1) .background .overlay .sub-title span {
+                color: #F44336;
+                font-weight: 700; }
+        section#work .work-item-wrapper .grid-1 .work-item:nth-child(2) .background {
+          margin-left: 24px;
+          margin-right: 12px;
+          width: 100%;
+          height: 226px;
+          background-image: url(http://i.imgur.com/57D8aJc.gif);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          transition: all .3s ease-in-out; }
+          section#work .work-item-wrapper .grid-1 .work-item:nth-child(2) .background:hover {
+            transform: scale(1.05); }
+            section#work .work-item-wrapper .grid-1 .work-item:nth-child(2) .background:hover .overlay {
+              background: rgba(51, 51, 51, 0.8); }
+              section#work .work-item-wrapper .grid-1 .work-item:nth-child(2) .background:hover .overlay .title {
+                opacity: 1; }
+              section#work .work-item-wrapper .grid-1 .work-item:nth-child(2) .background:hover .overlay .sub-title {
+                opacity: 1; }
+          section#work .work-item-wrapper .grid-1 .work-item:nth-child(2) .background .overlay {
+            width: 100%;
+            height: 100%;
+            transition: all .3s ease-in-out;
+            background: rgba(0, 0, 0, 0.18);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; }
+            section#work .work-item-wrapper .grid-1 .work-item:nth-child(2) .background .overlay .title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 24px; }
+            section#work .work-item-wrapper .grid-1 .work-item:nth-child(2) .background .overlay .sub-title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 18px;
+              font-weight: 300; }
+              section#work .work-item-wrapper .grid-1 .work-item:nth-child(2) .background .overlay .sub-title span {
+                color: #F44336;
+                font-weight: 700; }
+    section#work .work-item-wrapper .grid-2 {
+      display: flex;
+      flex-direction: column;
+      flex: 1; }
+      section#work .work-item-wrapper .grid-2 .work-item {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%; }
+        section#work .work-item-wrapper .grid-2 .work-item:first-child .background {
+          margin-left: 12px;
+          margin-right: 12px;
+          width: 100%;
+          background-image: url(http://i.imgur.com/zetzfzk.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 226px;
+          margin-bottom: 24px;
+          transition: all .3s ease-in-out; }
+          section#work .work-item-wrapper .grid-2 .work-item:first-child .background:hover {
+            transform: scale(1.05); }
+            section#work .work-item-wrapper .grid-2 .work-item:first-child .background:hover .overlay {
+              background: rgba(51, 51, 51, 0.8); }
+              section#work .work-item-wrapper .grid-2 .work-item:first-child .background:hover .overlay .title {
+                opacity: 1; }
+              section#work .work-item-wrapper .grid-2 .work-item:first-child .background:hover .overlay .sub-title {
+                opacity: 1; }
+          section#work .work-item-wrapper .grid-2 .work-item:first-child .background .overlay {
+            width: 100%;
+            height: 100%;
+            transition: all .3s ease-in-out;
+            background: rgba(0, 0, 0, 0.18);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; }
+            section#work .work-item-wrapper .grid-2 .work-item:first-child .background .overlay .title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 24px; }
+            section#work .work-item-wrapper .grid-2 .work-item:first-child .background .overlay .sub-title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 18px;
+              font-weight: 300; }
+              section#work .work-item-wrapper .grid-2 .work-item:first-child .background .overlay .sub-title span {
+                color: #F44336;
+                font-weight: 700; }
+        section#work .work-item-wrapper .grid-2 .work-item:nth-child(2) .background {
+          margin-left: 12px;
+          margin-right: 12px;
+          width: 100%;
+          height: 336px;
+          background-image: url(http://i.imgur.com/TA4VRE3.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          transition: all .3s ease-in-out; }
+          section#work .work-item-wrapper .grid-2 .work-item:nth-child(2) .background:hover {
+            transform: scale(1.05); }
+            section#work .work-item-wrapper .grid-2 .work-item:nth-child(2) .background:hover .overlay {
+              background: rgba(51, 51, 51, 0.8); }
+              section#work .work-item-wrapper .grid-2 .work-item:nth-child(2) .background:hover .overlay .title {
+                opacity: 1; }
+              section#work .work-item-wrapper .grid-2 .work-item:nth-child(2) .background:hover .overlay .sub-title {
+                opacity: 1; }
+          section#work .work-item-wrapper .grid-2 .work-item:nth-child(2) .background .overlay {
+            width: 100%;
+            height: 100%;
+            transition: all .3s ease-in-out;
+            background: rgba(0, 0, 0, 0.18);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; }
+            section#work .work-item-wrapper .grid-2 .work-item:nth-child(2) .background .overlay .title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 24px; }
+            section#work .work-item-wrapper .grid-2 .work-item:nth-child(2) .background .overlay .sub-title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 18px;
+              font-weight: 300; }
+              section#work .work-item-wrapper .grid-2 .work-item:nth-child(2) .background .overlay .sub-title span {
+                color: #F44336;
+                font-weight: 700; }
+    section#work .work-item-wrapper .grid-3 {
+      display: flex;
+      flex-direction: column;
+      flex: 1; }
+      section#work .work-item-wrapper .grid-3 .work-item {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%; }
+        section#work .work-item-wrapper .grid-3 .work-item:nth-child(1) .background {
+          margin-left: 12px;
+          margin-right: 12px;
+          width: 100%;
+          height: 336px;
+          background-image: url(http://i.imgur.com/zNmwt7Q.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-bottom: 24px;
+          transition: all .3s ease-in-out; }
+          section#work .work-item-wrapper .grid-3 .work-item:nth-child(1) .background:hover {
+            transform: scale(1.05); }
+            section#work .work-item-wrapper .grid-3 .work-item:nth-child(1) .background:hover .overlay {
+              background: rgba(51, 51, 51, 0.8); }
+              section#work .work-item-wrapper .grid-3 .work-item:nth-child(1) .background:hover .overlay .title {
+                opacity: 1; }
+              section#work .work-item-wrapper .grid-3 .work-item:nth-child(1) .background:hover .overlay .sub-title {
+                opacity: 1; }
+          section#work .work-item-wrapper .grid-3 .work-item:nth-child(1) .background .overlay {
+            width: 100%;
+            height: 100%;
+            transition: all .3s ease-in-out;
+            background: rgba(0, 0, 0, 0.18);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; }
+            section#work .work-item-wrapper .grid-3 .work-item:nth-child(1) .background .overlay .title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 24px; }
+            section#work .work-item-wrapper .grid-3 .work-item:nth-child(1) .background .overlay .sub-title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 18px;
+              font-weight: 300; }
+              section#work .work-item-wrapper .grid-3 .work-item:nth-child(1) .background .overlay .sub-title span {
+                color: #F44336;
+                font-weight: 700; }
+        section#work .work-item-wrapper .grid-3 .work-item:nth-child(2) .background {
+          margin-left: 12px;
+          margin-right: 12px;
+          width: 100%;
+          background-image: url(http://i.imgur.com/TvidcV9.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 226px;
+          transition: all .3s ease-in-out; }
+          section#work .work-item-wrapper .grid-3 .work-item:nth-child(2) .background:hover {
+            transform: scale(1.05); }
+            section#work .work-item-wrapper .grid-3 .work-item:nth-child(2) .background:hover .overlay {
+              background: rgba(51, 51, 51, 0.8); }
+              section#work .work-item-wrapper .grid-3 .work-item:nth-child(2) .background:hover .overlay .title {
+                opacity: 1; }
+              section#work .work-item-wrapper .grid-3 .work-item:nth-child(2) .background:hover .overlay .sub-title {
+                opacity: 1; }
+          section#work .work-item-wrapper .grid-3 .work-item:nth-child(2) .background .overlay {
+            width: 100%;
+            height: 100%;
+            transition: all .3s ease-in-out;
+            background: rgba(0, 0, 0, 0.18);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; }
+            section#work .work-item-wrapper .grid-3 .work-item:nth-child(2) .background .overlay .title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 24px; }
+            section#work .work-item-wrapper .grid-3 .work-item:nth-child(2) .background .overlay .sub-title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 18px;
+              font-weight: 300; }
+              section#work .work-item-wrapper .grid-3 .work-item:nth-child(2) .background .overlay .sub-title span {
+                color: #F44336;
+                font-weight: 700; }
+    section#work .work-item-wrapper .grid-4 {
+      display: flex;
+      flex-direction: column;
+      flex: 1; }
+      section#work .work-item-wrapper .grid-4 .work-item {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%; }
+        section#work .work-item-wrapper .grid-4 .work-item:first-child .background {
+          margin-left: 12px;
+          margin-right: 24px;
+          width: 100%;
+          background-image: url(http://i.imgur.com/QzsXwHK.gif);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 226px;
+          margin-bottom: 24px;
+          transition: all .3s ease-in-out; }
+          section#work .work-item-wrapper .grid-4 .work-item:first-child .background:hover {
+            transform: scale(1.05); }
+            section#work .work-item-wrapper .grid-4 .work-item:first-child .background:hover .overlay {
+              background: rgba(51, 51, 51, 0.8); }
+              section#work .work-item-wrapper .grid-4 .work-item:first-child .background:hover .overlay .title {
+                opacity: 1; }
+              section#work .work-item-wrapper .grid-4 .work-item:first-child .background:hover .overlay .sub-title {
+                opacity: 1; }
+          section#work .work-item-wrapper .grid-4 .work-item:first-child .background .overlay {
+            width: 100%;
+            height: 100%;
+            transition: all .3s ease-in-out;
+            background: rgba(0, 0, 0, 0.18);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; }
+            section#work .work-item-wrapper .grid-4 .work-item:first-child .background .overlay .title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 24px; }
+            section#work .work-item-wrapper .grid-4 .work-item:first-child .background .overlay .sub-title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 18px;
+              font-weight: 300; }
+              section#work .work-item-wrapper .grid-4 .work-item:first-child .background .overlay .sub-title span {
+                color: #F44336;
+                font-weight: 700; }
+        section#work .work-item-wrapper .grid-4 .work-item:nth-child(2) .background {
+          margin-left: 12px;
+          margin-right: 24px;
+          width: 100%;
+          height: 336px;
+          background-image: url(http://i.imgur.com/Nz5rUsQ.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          transition: all .3s ease-in-out; }
+          section#work .work-item-wrapper .grid-4 .work-item:nth-child(2) .background:hover {
+            transform: scale(1.05); }
+            section#work .work-item-wrapper .grid-4 .work-item:nth-child(2) .background:hover .overlay {
+              background: rgba(51, 51, 51, 0.8); }
+              section#work .work-item-wrapper .grid-4 .work-item:nth-child(2) .background:hover .overlay .title {
+                opacity: 1; }
+              section#work .work-item-wrapper .grid-4 .work-item:nth-child(2) .background:hover .overlay .sub-title {
+                opacity: 1; }
+          section#work .work-item-wrapper .grid-4 .work-item:nth-child(2) .background .overlay {
+            width: 100%;
+            height: 100%;
+            transition: all .3s ease-in-out;
+            background: rgba(0, 0, 0, 0.18);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; }
+            section#work .work-item-wrapper .grid-4 .work-item:nth-child(2) .background .overlay .title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 24px; }
+            section#work .work-item-wrapper .grid-4 .work-item:nth-child(2) .background .overlay .sub-title {
+              transition: all .3s ease-in-out;
+              opacity: 0;
+              color: white;
+              font-size: 18px;
+              font-weight: 300; }
+              section#work .work-item-wrapper .grid-4 .work-item:nth-child(2) .background .overlay .sub-title span {
+                color: #F44336;
+                font-weight: 700; }
+

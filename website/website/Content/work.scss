@@ -1,2 +1,596 @@
-﻿body {
+﻿section#work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 60px;
+
+    h2 {
+        margin: 0;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        color: #03a9f4;
+        @extend .roboto !optional;
+        font-size: 60px;
+        font-weight: 500;
+
+        span {
+            color: #F44336;
+        }
+    }
+
+    .work-item-wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        .grid-1 {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: auto;
+
+            .work-item {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                width: 100%;
+
+                &:nth-child(1) {
+                    .background {
+                        margin-left: 24px;
+                        margin-right: 12px;
+                        width: 100%;
+                        height: 336px;
+                        background-image: url(http://i.imgur.com/j3JDv2X.gif);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        margin-bottom: 24px;
+                        @extend .card-shadow-3 !optional;
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.05);
+
+                            .overlay {
+                                background: rgba(51, 51, 51, .80);
+
+                                .title {
+                                    opacity: 1;
+                                }
+
+                                .sub-title {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+
+                        .overlay {
+                            width: 100%;
+                            height: 100%;
+                            transition: all .3s ease-in-out;
+                            background: rgba(0, 0, 0, .18);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+
+                            .title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 24px;
+                            }
+
+                            .sub-title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 18px;
+                                font-weight: 300;
+
+                                span {
+                                    color: #F44336;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    .background {
+                        margin-left: 24px;
+                        margin-right: 12px;
+                        width: 100%;
+                        height: 226px;
+                        background-image: url(http://i.imgur.com/57D8aJc.gif);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        @extend .card-shadow-3 !optional;
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.05);
+
+                            .overlay {
+                                background: rgba(51, 51, 51, .80);
+
+                                .title {
+                                    opacity: 1;
+                                }
+
+                                .sub-title {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+
+                        .overlay {
+                            width: 100%;
+                            height: 100%;
+                            transition: all .3s ease-in-out;
+                            background: rgba(0, 0, 0, .18);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+
+                            .title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 24px;
+                            }
+
+                            .sub-title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 18px;
+                                font-weight: 300;
+
+                                span {
+                                    color: #F44336;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .grid-2 {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+            .work-item {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                width: 100%;
+
+                &:first-child {
+                    .background {
+                        margin-left: 12px;
+                        margin-right: 12px;
+                        width: 100%;
+                        background-image: url(http://i.imgur.com/zetzfzk.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 226px;
+                        margin-bottom: 24px;
+                        @extend .card-shadow-3 !optional;
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.05);
+
+                            .overlay {
+                                background: rgba(51, 51, 51, .80);
+
+                                .title {
+                                    opacity: 1;
+                                }
+
+                                .sub-title {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+
+                        .overlay {
+                            width: 100%;
+                            height: 100%;
+                            transition: all .3s ease-in-out;
+                            background: rgba(0, 0, 0, .18);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+
+                            .title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 24px;
+                            }
+
+                            .sub-title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 18px;
+                                font-weight: 300;
+
+                                span {
+                                    color: #F44336;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    .background {
+                        margin-left: 12px;
+                        margin-right: 12px;
+                        width: 100%;
+                        height: 336px;
+                        background-image: url(http://i.imgur.com/TA4VRE3.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        @extend .card-shadow-3 !optional;
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.05);
+
+                            .overlay {
+                                background: rgba(51, 51, 51, .80);
+
+                                .title {
+                                    opacity: 1;
+                                }
+
+                                .sub-title {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+
+                        .overlay {
+                            width: 100%;
+                            height: 100%;
+                            transition: all .3s ease-in-out;
+                            background: rgba(0, 0, 0, .18);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+
+                            .title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 24px;
+                            }
+
+                            .sub-title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 18px;
+                                font-weight: 300;
+
+                                span {
+                                    color: #F44336;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .grid-3 {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+            .work-item {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                width: 100%;
+
+                &:nth-child(1) {
+                    .background {
+                        margin-left: 12px;
+                        margin-right: 12px;
+                        width: 100%;
+                        height: 336px;
+                        background-image: url(http://i.imgur.com/zNmwt7Q.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        margin-bottom: 24px;
+                        @extend .card-shadow-3 !optional;
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.05);
+
+                            .overlay {
+                                background: rgba(51, 51, 51, .80);
+
+                                .title {
+                                    opacity: 1;
+                                }
+
+                                .sub-title {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+
+                        .overlay {
+                            width: 100%;
+                            height: 100%;
+                            transition: all .3s ease-in-out;
+                            background: rgba(0, 0, 0, .18);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+
+                            .title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 24px;
+                            }
+
+                            .sub-title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 18px;
+                                font-weight: 300;
+
+                                span {
+                                    color: #F44336;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    .background {
+                        margin-left: 12px;
+                        margin-right: 12px;
+                        width: 100%;
+                        background-image: url(http://i.imgur.com/TvidcV9.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 226px;
+                        @extend .card-shadow-3 !optional;
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.05);
+
+                            .overlay {
+                                background: rgba(51, 51, 51, .80);
+
+                                .title {
+                                    opacity: 1;
+                                }
+
+                                .sub-title {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+
+                        .overlay {
+                            width: 100%;
+                            height: 100%;
+                            transition: all .3s ease-in-out;
+                            background: rgba(0, 0, 0, .18);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+
+                            .title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 24px;
+                            }
+
+                            .sub-title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 18px;
+                                font-weight: 300;
+
+                                span {
+                                    color: #F44336;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .grid-4 {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+            .work-item {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                width: 100%;
+
+                &:first-child {
+                    .background {
+                        margin-left: 12px;
+                        margin-right: 24px;
+                        width: 100%;
+                        background-image: url(http://i.imgur.com/QzsXwHK.gif);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        height: 226px;
+                        margin-bottom: 24px;
+                        @extend .card-shadow-3 !optional;
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.05);
+
+                            .overlay {
+                                background: rgba(51, 51, 51, .80);
+
+                                .title {
+                                    opacity: 1;
+                                }
+
+                                .sub-title {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+
+                        .overlay {
+                            width: 100%;
+                            height: 100%;
+                            transition: all .3s ease-in-out;
+                            background: rgba(0, 0, 0, .18);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+
+                            .title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 24px;
+                            }
+
+                            .sub-title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 18px;
+                                font-weight: 300;
+
+                                span {
+                                    color: #F44336;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    .background {
+                        margin-left: 12px;
+                        margin-right: 24px;
+                        width: 100%;
+                        height: 336px;
+                        background-image: url(http://i.imgur.com/Nz5rUsQ.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        @extend .card-shadow-3 !optional;
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.05);
+
+                            .overlay {
+                                background: rgba(51, 51, 51, .80);
+
+                                .title {
+                                    opacity: 1;
+                                }
+
+                                .sub-title {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+
+                        .overlay {
+                            width: 100%;
+                            height: 100%;
+                            transition: all .3s ease-in-out;
+                            background: rgba(0, 0, 0, .18);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+
+                            .title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 24px;
+                            }
+
+                            .sub-title {
+                                transition: all .3s ease-in-out;
+                                opacity: 0;
+                                @extend .roboto !optional;
+                                color: white;
+                                font-size: 18px;
+                                font-weight: 300;
+
+                                span {
+                                    color: #F44336;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
