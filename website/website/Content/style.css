@@ -19,7 +19,7 @@ body, html {
 .roboto, section#home .jumbotron-img .jumbotron .title-text h2, section#home .jumbotron-img .jumbotron .title-text h4, section#solutions h2, section#solutions .card-wrapper .card h4, section#solutions .card-wrapper .card p {
   font-family: 'Roboto', sans-serif; }
 
-.card-shadow-1, section#home .jumbotron-img .jumbotron .button-wrapper a:hover, section#home .home-content {
+.card-shadow-1, section#home .jumbotron-img .jumbotron .button-wrapper a:hover, section#home .home-content, section#contact form button:hover {
   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px; }
 
 .card-shadow-2, section#solutions .card-wrapper .card {
@@ -127,7 +127,6 @@ section#home {
           border-color: #F44336; }
   section#home .home-content {
     width: 1000px;
-    height: 1200px;
     background: white;
     transform: translateY(-60px); }
 
@@ -301,4 +300,77 @@ section#solutions {
         line-height: 28px;
         margin-top: 4px;
         margin-bottom: 4px; }
+
+section#contact {
+  width: 100%;
+  background: #f44336;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  section#contact h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 36px; }
+  section#contact h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 0;
+    color: white; }
+  section#contact form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    section#contact form button {
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 12px 28px;
+      margin: 200px;
+      letter-spacing: 1.25px;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+      transition: all .2s ease-in-out;
+      border-radius: 10em; }
+      section#contact form button:hover {
+        background: white;
+        border-color: white;
+        color: #f44336; }
+    section#contact form .input-wrapper {
+      width: 40%;
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      padding-top: 20px;
+      justify-content: flex-end; }
+      section#contact form .input-wrapper label {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: white;
+        font-weight: 300;
+        display: flex;
+        float: left; }
+      section#contact form .input-wrapper input {
+        background-color: #da483d;
+        height: 3.75rem;
+        width: 100%;
+        padding: 0px 1.25rem;
+        display: block;
+        outline: 0;
+        border: 0;
+        border-radius: 0;
+        line-height: normal; }
+        section#contact form .input-wrapper input[name=description] {
+          height: 400px;
+          display: flex;
+          justify-content: center; }
 
